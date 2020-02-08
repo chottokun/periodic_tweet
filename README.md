@@ -12,3 +12,6 @@ configure.ini に twitter APIとツイートの最後に追加する文章を記
         ACCESS_TOKEN_SECRET =
         # tweet words to add
         WORDS =
+
+# コメント
+色んなサイトを参考にさせていただきました。感謝。
