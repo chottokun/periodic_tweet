@@ -1,9 +1,9 @@
-# periodic_tweet
+# 一定間隔で自動ツイート
 ツイートする文章を書いたファイルからランダムに抽出し定期的にツイートする。
 
 # インストール
-Pipenvを想定して作っています。
-Pipenv install でインストール後、pipenv shellに入って動かすなり、pipenv runで動かすなり、どうぞ。
+Pipenvを使っています。Pipfileはpython 3.7ですが、3.6でも動くと思います。
+Pipenv install でインストール後、pipenv shellに入って動かすなり、pipenv runで動かすなり・・・です。
 
 raspbery pi 3B+ 上で動かしています。
 
