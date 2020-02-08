@@ -8,7 +8,6 @@ import time
 import configparser
 
 config = configparser.ConfigParser()
-#
 config.read('configure.ini')
 
 CONSUMER_KEY = config.get('TWITTER', 'CONSUMER_KEY')
@@ -18,16 +17,13 @@ ACCESS_TOKEN_SECRET = config.get('TWITTER', 'ACCESS_TOKEN_SECRET')
 
 WORDS = config.get('TWITTER', 'WORDS')
 
-#url = "https://api.twitter.com/1.1/statuses/update.json"
-
 tweet_data = open("sentences.txt", 'r')
 list_text = tweet_data.readlines()
 list_text_sampled = random.sample(list_text, len(list_text))
 
 def post_tweet(text):
+
   try:
-    # put your keys
-    #
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
     auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
     api = tweepy.API(auth)
@@ -38,8 +34,6 @@ def post_tweet(text):
 
 if __name__ == '__main__':
 #  post_tweet('自動生成つぶやきのテストします。')
-
-#  for tweet in list_text_sampled:
 
   for tweet in list_text_sampled:
     tweet_message = tweet.rstrip("\n") + WORDS
