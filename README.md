@@ -6,6 +6,7 @@ Pipenvを想定して作っています。
 Pipenv install でインストール後、pipenv shellに入って動かすなり、pipenv runで動かすなり、どうぞ。
 
 raspbery pi 3B+ 上で動かしています。
+
         Linux raspberrypi 4.19.93-v7+ #1290 SMP Fri Jan 10 16:39:50 GMT 2020 armv7l GNU/Linux
 
 
