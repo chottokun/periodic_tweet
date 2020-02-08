@@ -9,7 +9,7 @@ import configparser
 
 config = configparser.ConfigParser()
 #
-config.read('config.ini.original')
+config.read('configure.ini')
 
 CONSUMER_KEY = config.get('TWITTER', 'CONSUMER_KEY')
 CONSUMER_SECRET = config.get('TWITTER', 'CONSUMER_SECRET')
