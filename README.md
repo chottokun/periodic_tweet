@@ -19,7 +19,7 @@ configure.ini に twitter APIとツイートの最後に追加する文章を記
         CONSUMER_SECRET =
         ACCESS_TOKEN =
         ACCESS_TOKEN_SECRET =
-        # tweet words to add
+        # tweet words
         WORDS =
 
 # コメント
